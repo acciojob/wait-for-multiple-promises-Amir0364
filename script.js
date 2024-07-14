@@ -25,7 +25,7 @@ Promise.all(promiseArray).then((values) => {
   let totalTimeInSeconds = (endTime - startTime) / 1000;
 
   // Clear the table body
-  tableBody.innerHTML = '';
+  //tableBody.innerHTML = '';
 
   // For each promise, create a new row and append it to the table body
   timesInSeconds.forEach((time, index) => {
