@@ -14,8 +14,9 @@ let promise3 = createPromise();
 
 let promiseArray = [promise1, promise2, promise3];
 
-let startTime = Date.now();
+
 let tableBody = document.getElementById('output');
+let startTime = Date.now();
 
 Promise.all(promiseArray).then((values) => {
   let endTime = Date.now();
